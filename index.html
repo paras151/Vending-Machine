@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vending Machine</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="vending-machine">
+    <h2>Vending Machine</h2>
+    <div class="display">
+      <p id="message">Insert coins and select an item.</p>
+      <p id="balance">Balance: ₹0.00</p>
+    </div>
+    <div class="items">
+      <div class="item" onclick="vendingMachine.selectItem(1)">
+        <p>Soda - ₹30</p>
+      </div>
+      <div class="item" onclick="vendingMachine.selectItem(2)">
+        <p>Chips - ₹20</p>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+    <div class="coin-slot">
+      <button class="coin" id="insert-10">₹10</button>
+      <button class="coin" id="insert-20">₹20</button>
+      <button class="coin" id="insert-50">₹50</button>
+      <br>
+      <button id="dispense">Dispense</button>
+      <button id="cancel">Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

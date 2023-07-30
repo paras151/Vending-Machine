@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .vending-machine {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .display {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  
+  .item {
+    border: 2px solid #333;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #ffd700;
+    color: #333;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item:hover {
+    background-color: #fdd43c;
+  }
+  
+  .coin-slot {
+    margin-top: 15px;
+  }
+
+  .coin{
+    padding: 12px 8px;
+    box-shadow: 5px 5px 8px 1px #888888;
+    border-radius: 50%;
+  }
+  
+  button {
+    padding: 12px 24px;
+    margin: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #message {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  #balance {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
