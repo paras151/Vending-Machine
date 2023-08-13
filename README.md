@@ -1,4 +1,5 @@
-# Vending-Machine
+# Vending-Machine 
+https://paras151.github.io/Vending-Machine/
 This is an implementation of the system design of a Vending Machine with a UI to play with.
 
 The state pattern is one of the behavioral design patterns. A state design pattern is used when an object changes its behavior based on its internal state. 
@@ -10,5 +11,3 @@ In the case of a vending machine the operations that the user can perform are st
 
 # Tools Used
 HTML | CSS | Javascript
-
-https://paras151.github.io/Vending-Machine/
